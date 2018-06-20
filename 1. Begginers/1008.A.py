@@ -1,0 +1,5 @@
+num =   int( input( ))
+hours = int( input( ))
+pay =   float( input( ))
+print ('NUMBER =', num)
+print ('VALOR A PAGAR: R$ {:.2f}'.format(hours*pay))
