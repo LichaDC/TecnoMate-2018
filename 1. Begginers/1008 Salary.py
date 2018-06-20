@@ -2,9 +2,9 @@ num =   int( input( ))
 hours = int( input( ))
 pay =   float( input( ))
 print ('NUMBER =', num)
-print ('VALOR A PAGAR: R$ {:.2f}'.format(hours*pay))
+print ('SALARY = U$ {:.2f}'.format(hours*pay))
 
-# Wrong answer (50%)
+# Time 0.020s
 
 
 num =   int( input( ))
