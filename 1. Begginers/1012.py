@@ -7,3 +7,5 @@ print ('CIRCULO: {:.3f}'  .format( pi * c ** 2))
 print ('TRAPEZIO: {:.3f}' .format( 0.5 * c * (a+b)))
 print ('QUADRADO: {:.3f}' .format( b**2))
 print ('RETANGULO: {:.3f}'.format( a*b))
+
+# Time: 0.016s

@@ -1,2 +1,5 @@
-pi = 3.14159
-print('A={}'.format(round(pi * float( input()) ** 2, 4)))
+a = int( input( ))
+b = int( input( ))
+print('X =', a+b )
+
+# Time: 0.016s
