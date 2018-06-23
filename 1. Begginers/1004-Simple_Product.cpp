@@ -7,9 +7,9 @@ int main(){
 
     cin >> a;
     cin >> b;
-
-    cout<< "X = " << a+b << endl;
+    
+    cout<< "PROD = " << a*b << endl;
 
 }
 
-// Time 0.000s
+// Time: 0.000s

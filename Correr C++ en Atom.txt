@@ -15,7 +15,8 @@ Aceptar -> Aceptar -> Aceptar
 
 • Debería antar, escribir un código en Atom y apretar f5 para que ejecute
 
-Les dejo un 'Hola Mundo' para que usen de test hay que guardarlo con extensión .cpp:
+Les dejo un 'Hola Mundo' para que usen de test hay que guardarlo con extensión .cpp
+(No poner espacios en el nombre, porque sino no funciona el programa):
 
 #include <iostream>
 using namespace std;

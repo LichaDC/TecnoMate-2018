@@ -7,8 +7,8 @@ int main(){
 
     cin >> a;
     cin >> b;
-
-    cout<< "X = " << a+b << endl;
+    
+    cout<< "SOMA = " << a+b << endl;
 
 }
 
