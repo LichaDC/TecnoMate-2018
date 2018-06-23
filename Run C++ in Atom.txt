@@ -1,0 +1,26 @@
+• Installar Atom
+
+• Instalar el package "gpp-compiler"
+
+• Descargar e instalar MinGW, (Es gratis, está en la web oficial)
+
+• Una vez installado marcar cada Package en la pestaña Basic Setup
+Apretar Installation, Apply Changes, Apply
+
+• Ahora hay que agragarlo al path de environment variable:
+Para eso, hacer clic derecho en Este Equipo -> Propiededes ->
+Configuración avanzada del sistema -> Variables de entorno ->
+Path -> Editar -> Nueva -> Escribir "C:\MinGW\bin" ->
+Aceptar -> Aceptar -> Aceptar
+
+• Debería antar, escribir un código en Atom y apretar f5 para que ejecute
+
+Les dejo un 'Hola Mundo' para que usen de test hay que guardarlo con extensión .cpp:
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello, World!";
+    return 0;
+}
