@@ -11,5 +11,3 @@ int main(){
     cout<< "X = " << a+b << endl;
 
 }
-
-// Time 0.000s

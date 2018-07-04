@@ -2,15 +2,16 @@
 #include <iomanip>
 using namespace std;
 
-float a, b;
-
+string a;
+double b, c;
 main(){
 
     cin >> a;
     cin >> b;
+    cin >> c;
 
     cout<< fixed;
-    cout<< setprecision(5);
-    cout<< "MEDIA = " << (a*3.5+b*7.5)/11 <<endl;
+    cout<< setprecision(2);
+    cout<< "TOTAL = R$ " << b+c*0.15 << endl;
 
 }

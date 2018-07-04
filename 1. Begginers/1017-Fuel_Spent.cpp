@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-float a, b;
+int a,b;
 
 main(){
 
@@ -10,7 +10,7 @@ main(){
     cin >> b;
 
     cout<< fixed;
-    cout<< setprecision(5);
-    cout<< "MEDIA = " << (a*3.5+b*7.5)/11 <<endl;
+    cout<< setprecision(3);
+    cout<< (a*b)/12.0 << endl;
 
 }

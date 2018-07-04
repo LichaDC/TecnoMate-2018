@@ -1,18 +1,16 @@
 #include <iostream>
 #include <iomanip>
-#include <cmath>
 using namespace std;
 
+int r;
 double pi = 3.14159;
-double r;
 
-
-int main(){
+main(){
 
     cin >> r;
 
     cout<< fixed;
-    cout<< setprecision(4);
-    cout<< "A=" << pi*pow(r,2) << endl;
+    cout<< setprecision(3);
+    cout<< "VOLUME = " << (4.0/3) * pi *r*r*r << endl;
 
 }
