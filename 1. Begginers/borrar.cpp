@@ -1,11 +1,12 @@
 #include <iostream>
-#include <cmath>
+#include <chrono>
 using namespace std;
 
+string name[3];
 main(){
-float a = 10.2;
-float b = 3.3;
-cout<< fmod(a , b) << endl;
-cout<< a/b <<endl;
-cout<< int (a/b);
+    name[0] = "Lisandro";
+    name[1] = "Dalla";
+    name[2] = "Costa";
+    cout<< name[0]<< " "<< name[1]<< " "<< name[2];
+
 }
